@@ -7,7 +7,7 @@ $(document).ready(function(){
 		infinite: true,
 		dots: true,
 		slidesToShow: 3,
-		slidesToScroll: 2,
+		slidesToScroll: 1,
 		arrows: false,
 		responsive: [
 			{
@@ -41,7 +41,7 @@ $(document).ready(function(){
         infinite: true,
         dots: true,
         slidesToShow: 3,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         arrows: false,
         responsive: [
             {
@@ -97,13 +97,6 @@ $(document).ready(function(){
 
     if ($('.program').length) {
         inView('.program_right')
-            .on('enter', el => {
-                $(el).addClass('animate__animated animate__fadeInRight')
-            })
-    }
-
-    if ($('.documentation').length) {
-        inView('.documentation-image')
             .on('enter', el => {
                 $(el).addClass('animate__animated animate__fadeInRight')
             })
@@ -177,28 +170,6 @@ $(document).ready(function(){
         inputFormat3.innerText = values[handle];
         updateTotal();
     });
-
-
-    $(window).resize(() => {
-        // Моб. версия
-        if (!fiestResize) {
-            $('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1')
-            if ($(window).width() < 360) $('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
-    
-            fiestResize = true
-        } else {
-            fiestResize = false
-        }
-    })
-
-    // Моб. версия
-	fiestResize = false
-
-	if ($(window).width() < 360) {
-		$('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
-
-		fiestResize = true
-	}
 
 
 

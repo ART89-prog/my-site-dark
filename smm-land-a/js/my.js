@@ -22,7 +22,7 @@ $(document).ready(function(){
     }
     $('.nice-select .option').click(function () {
         var newClass = $(this).allTheClasses();
-        $(this).parents('.nice-select').find('.current').attr('class', 'current ' + newClass.join(' '));
+        $(this).parents('.nice-select').find('.current').attr('class', 'current ' + newClass);
     });
 
     tippy('[data-tippy-content]', {
@@ -45,36 +45,9 @@ $(document).ready(function(){
         allowHTML: true,
     });
 
-    $('.more-btn a.toggle').click(function(e) {
-		e.preventDefault()
-		$(".category_items").show();
-		$(this).parent().hide();
-	 
-	});
 
 
 
-    $(window).resize(() => {
-        // Моб. версия
-        if (!fiestResize) {
-            $('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1')
-            if ($(window).width() < 360) $('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
-    
-            fiestResize = true
-        } else {
-            fiestResize = false
-        }
-    })
-
-
-    	// Моб. версия
-	fiestResize = false
-
-	if ($(window).width() < 360) {
-		$('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
-
-		fiestResize = true
-	}
 
 
        
