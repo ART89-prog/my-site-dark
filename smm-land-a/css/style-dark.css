@@ -1,0 +1,236 @@
+
+/* SECTION-MAIN START */
+
+html {
+    --thumbBG-gr: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+}
+body {   
+    background: #212938;
+}
+.section--main:before {
+    background: url(../img/bg.png) no-repeat top center;
+    background-size: cover;
+}
+.btn-outline-light {
+    color: #C4CFDD;
+    border: 2px solid #C4CFDD;
+}
+.main-text {
+    color: #C4CFDD;
+}
+.main-content {
+    background: #212938;
+    box-shadow: 0px 18px 88px rgba(0, 0, 0, 0.292282);
+}
+.social-list__title {
+    color: #C4CFDD;
+}
+.social-list__btn:before {
+    display: none;
+}
+.social-head {
+    color: #C4CFDD;
+}
+.social-item {
+    background: #283040;
+}
+.social-item__title {
+    color: #C4CFDD;
+}
+.social-item__price {
+    color: #C4CFDD;
+}
+.btn-primary {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+}
+
+/* SECTION-MAIN END */
+
+
+
+/* ABOUT START */
+
+
+.about_title, 
+.program_title, 
+.withdrawal_title, 
+.reviews_title, 
+.post_title, 
+.documentation_title {
+    color: #C4CFDD;
+}
+.about_text, 
+.program_text, 
+.withdrawal_text, 
+.reviews_text, 
+.documentation_text {
+    color: #C4CFDD;
+}
+.about_item,
+.about_items-top .about_item:nth-child(2) {
+    background: #283040;
+}
+.about_items-bottom .about_item:nth-child(2n+1) {
+    background: #283040;
+}
+.about_items-bottom .about_item:nth-child(2) {
+    background: #283040;
+} 
+.about_item:first-child {
+    background: #212938;
+}
+.about_item-subtitle {
+    color: #C4CFDD;
+}
+.about_item .about_item-text {
+    color: #C4CFDD;
+}
+
+/* ABOUT END */
+
+
+
+/* PROGRAMM START */
+
+.program {
+    background: #1A212E;
+}
+.program_right {
+    background: #283040;
+    box-shadow: 0px 18px 88px rgba(0, 0, 0, 0.292282);
+}
+.program .form-control {
+    background: #343E51;
+}
+.program .form-control__field,
+.program .form-control-wrap div {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.program_right .calc-range {
+    background: #1A212E;
+}
+.noUi-target {
+    box-shadow: none;
+}
+.calc-range .noUi-connect {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+}
+.form-control-title {
+    color: #C4CFDD;
+}
+.form-control-total {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%); 
+}
+
+/* PROGRAM END */
+
+
+
+/* WITHDRAWAL START */
+
+.withdrawal {
+    background: #1A212E;
+}
+.list-item {
+    color: #C4CFDD;
+}
+
+/* WITHDRAWAL END */
+
+
+/* DOCUMENTATION START */
+
+.documentation {
+    background: #212938;
+}
+.documentation_links-left {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+}
+
+/* DOCUMENTATION END */
+
+
+/* REVIEWS START */
+
+.reviews_item {
+    background: #283040;
+    box-shadow: none;
+}
+.reviews_item-text {
+    color: #C4CFDD;
+}
+.reviews_item-name {
+    color: #C4CFDD;
+}
+.reviews_item-date {
+    color: #C4CFDD;
+}
+.slick-dots button{
+	background: #3D4658;
+}
+.slick-dots li.slick-active button{
+	background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+}
+
+/* REVIEWS END */
+
+
+
+/* POST START */
+
+.post {
+    background: #212938;
+    box-shadow: none;
+}
+.post_item {
+    background: #283040;
+    box-shadow: none;
+}
+.post_item-date {
+    color: #C4CFDD;
+}
+.post_item-title {
+    color: #C4CFDD;
+}
+.post_item-text {
+    color: #C4CFDD;
+}
+.post_item-link {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+}
+
+/* POST END */
+
+
+/* FOOTER START */
+
+.footer {
+    background: #283040;
+}
+.copyright,
+.footer-link {
+    opacity: 1;
+    color: #C4CFDD;
+}
+
+/* FOOTER END */
+
+
+@media (max-width: 479px) {
+    .about_items-top 
+    .about_item:nth-child(2), 
+    .about_items-top .about_item:last-child, 
+    .about_items-bottom > * {
+        padding: 20px 15px;
+    }
+}
+
+
+
+
+
+
+
+
