@@ -3,7 +3,9 @@ html {
     --thumbBG-gr: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);   
     --scrollbarBG: #212938;
 }
-
+.btn-primary {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+}
 
 .header .lk-user__name {
     color: #C4CFDD;
@@ -37,9 +39,6 @@ html {
 .select-img .nice-select {
     background: #283040;
     color: #C4CFDD;
-}
-.btn-primary {
-    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
 }
 .balance_form .line {
     border-bottom: 1px solid #3E4A62;
@@ -105,8 +104,8 @@ html {
     color: #C4CFDD;
 }
 .mra {
-    margin-right: auto;
-    margin-left: 0;
+    margin-right: auto !important;
+    margin-left: 0 !important;
 }
 .dialog_block-message.my .dialog_block-text a {
     color: #C4CFDD;
@@ -115,6 +114,21 @@ html {
     background: #283040;
     color: #C4CFDD;
     box-shadow: none;
+}
+.add_message .form .file label {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+    color: #FFFFFF;
+}
+.dialog .file .file-list .file-list__name {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #C4CFDD;
+}
+.dialog .file .file-list button {
+    margin-right: 10px;
+}
+.dialog .file .error-message {
+    color: #C4CFDD;
 }
 
 
@@ -142,7 +156,15 @@ html {
     color: #C4CFDD;
 }
 .checkbox-icon {
-    border: 1px solid #283040;
+    border: none;
+    background: #283040;
+    border-radius: 4px;  
+    transition: 0s;   
+}
+.checkbox input:checked + .checkbox-icon {
+    background-image: url(../img/svg/check.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .entry .form .recovery_link,
 .entry_registration,
@@ -273,4 +295,167 @@ html {
 
 
 
+
+.promocode_item-title {
+    color: #C4CFDD;
+}
+.promocode_item-input {
+    background: #283040;
+    color: #C4CFDD;
+    opacity: 0.54;
+    border: 1px solid #283040;
+}
+.promocode_item {
+    border-bottom: 1px solid #3E4A62;
+}
+.reception {
+    border-bottom: 1px solid #3E4A62;
+}
+.reception_list {
+    color: #C4CFDD;
+}
+.reception_list li a {
+    color: #706CFD;
+}
+
+
+
+.referrals_item-link {
+    background: #283040;
+    color: #C4CFDD;
+}
+.referrals_item-title {
+    color: #C4CFDD;
+}
+.referrals_items {
+    border-bottom: 1px solid #3E4A62;
+}
+.referrals_information-head p {
+    color: #C4CFDD;
+}
+.referrals_information-body {
+    background: #283040;
+}
+.referrals_information-body p {
+    color: #C4CFDD;
+}
+
+
+
+
+
+.registration .checkbox a {
+    color: #925CFE;
+}
+.requsites_form-line label {
+    color: #C4CFDD;
+}
+.requsites_form-line input {
+    border: 1px solid #283040;
+    color: #C4CFDD;
+    opacity: 0.54;
+    background: #283040;
+}
+.requsites .social-list__link span {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+
+
+
+
+.settings_form label {
+    color: #C4CFDD;
+}
+.settings_avatar-title,
+.settings_key-text {
+    color: #C4CFDD;
+}
+.settings_form input {
+    border: 1px solid #283040;
+    background: #283040;
+    color: #C4CFDD;
+} 
+.settings_key-item {
+    border: 1px solid #283040;
+    background: #283040;
+    color: #C4CFDD;
+}
+.settings .file-list li,
+.settings .file .file-uploader__message-area {
+    color: #C4CFDD;
+}
+.settings .file_btn {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+}
+
+
+
+
+
+.support_item-title {
+    color: #C4CFDD;
+}
+.support_item-list {
+    color: #C4CFDD;
+    opacity: 0.56;  
+}
+.support_item-text a, 
+.support_item-list a {
+    color: #a788e3;
+}
+
+
+
+
+
+.modal_tickets {
+    background: #212938;
+}
+.fancybox__content>.carousel__button.is-close {
+    color: #929FBA;
+}
+.modal_tickets-title {
+    color: #C4CFDD;
+}
+.modal_tickets-form label {
+    color: #C4CFDD;
+}
+.modal_tickets-form input,
+.modal_tickets-form textarea {
+    color: #C4CFDD;
+    background: #283040;
+    border: 1px solid #283040;
+}
+.tickets_information-head p {
+    color: #C4CFDD;
+}
+.tickets_information-body {
+    background: #283040;    
+}
+.tickets_information-body p {
+    color: #C4CFDD;
+}
+.tickets .social-list__link span {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+
+
+
+.income_modal {
+    background: #212938;
+    border-radius: 23px;
+}
+.income_modal-title {
+    color: #C4CFDD;
+}
+.income_modal-text {
+    color: #C4CFDD;
+    opacity: 0.6;
+}
 
