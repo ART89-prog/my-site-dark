@@ -17,48 +17,48 @@ $(document).ready(function(){
 		return false;
 	});
 
-    // Fancybox
-    $.fancybox.defaults.hash = false
-    $.fancybox.defaults.backFocus = false
-    $.fancybox.defaults.autoFocus = false
-    $.fancybox.defaults.animationEffect = 'zoom'
-    $.fancybox.defaults.transitionEffect = 'slide'
-    $.fancybox.defaults.speed = 500
-    $.fancybox.defaults.gutter = 40
-    $.fancybox.defaults.i18n = {
-        'en': {
-            CLOSE: "Закрыть",
-            NEXT: "Следующий",
-            PREV: "Предыдущий",
-            ERROR: "Запрошенный контент не может быть загружен.<br /> Пожалуйста, повторите попытку позже.",
-            PLAY_START: "Запустить слайдшоу",
-            PLAY_STOP: "Остановить слайдшоу",
-            FULL_SCREEN: "На весь экран",
-            THUMBS: "Миниатюры",
-            DOWNLOAD: "Скачать",
-            SHARE: "Поделиться",
-            ZOOM: "Увеличить"
-        }
-    }
+    // // Fancybox
+    // $.fancybox.defaults.hash = false
+    // $.fancybox.defaults.backFocus = false
+    // $.fancybox.defaults.autoFocus = false
+    // $.fancybox.defaults.animationEffect = 'zoom'
+    // $.fancybox.defaults.transitionEffect = 'slide'
+    // $.fancybox.defaults.speed = 500
+    // $.fancybox.defaults.gutter = 40
+    // $.fancybox.defaults.i18n = {
+    //     'en': {
+    //         CLOSE: "Закрыть",
+    //         NEXT: "Следующий",
+    //         PREV: "Предыдущий",
+    //         ERROR: "Запрошенный контент не может быть загружен.<br /> Пожалуйста, повторите попытку позже.",
+    //         PLAY_START: "Запустить слайдшоу",
+    //         PLAY_STOP: "Остановить слайдшоу",
+    //         FULL_SCREEN: "На весь экран",
+    //         THUMBS: "Миниатюры",
+    //         DOWNLOAD: "Скачать",
+    //         SHARE: "Поделиться",
+    //         ZOOM: "Увеличить"
+    //     }
+    // }
 
 
 
 
-    setTimeout(function() { 
-        if ( $(window).width() < 990 ) {
+    // setTimeout(function() { 
+    //     if ( $(window).width() < 990 ) {
 
-            // $.fancybox.close(true)
+    //         // $.fancybox.close(true)
 
-            $.fancybox.open({
-                src: "#change_pass",
-                type: 'inline',
-                touch: false
-            })
-        }
-        else {
-            $.fancybox.close(true)
-        }
-    }, 1000);
+    //         $.fancybox.open({
+    //             src: "#change_pass",
+    //             type: 'inline',
+    //             touch: false
+    //         })
+    //     }
+    //     else {
+    //         $.fancybox.close(true)
+    //     }
+    // }, 1000);
 
     
 
