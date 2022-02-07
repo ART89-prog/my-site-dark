@@ -167,3 +167,110 @@ html {
 .history_item-bottom-text {
     color: #C4CFDD; 
 }
+
+
+
+.income .main-content__form form label {
+    justify-content: flex-start !important;
+}
+.income .field-select label a {
+    margin-left: 7px;
+}
+
+
+
+.page-error_title {
+    color: #C4CFDD;
+}
+.page-error_text {
+    color: #C4CFDD;
+    opacity: 0.6;
+}
+
+
+
+
+.social-head {
+    color: #C4CFDD;
+}
+.social-item {
+    background: #283040;
+}
+.social-item__title,
+.social-item__price {
+    color: #C4CFDD;
+}
+.lk-password {
+    background: #212938;
+}
+.lk-password_text {
+    color: #C4CFDD;
+}
+
+
+
+
+.social-list__btn.active:before, 
+.social-list__btn:hover:before {
+    opacity: 0;
+}
+.social-list__drop {
+    background: #283040;
+    color: #C4CFDD;
+    box-shadow: none;
+}
+.social-list__drop a {
+    color: #C4CFDD;
+    border-bottom: 1px solid #3E4A62;
+}
+
+
+
+.main-content__title {
+    color: #C4CFDD;
+}
+.come-back {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.come-back .icon {
+    margin-top: 5px;
+}
+.service-link.active {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+}
+.service-link {
+    background: #283040;
+    color: #C4CFDD;
+}
+.form-control__label {
+    color: #C4CFDD;
+}
+.form-control__field {
+    border: 0.881676px solid #283040;
+    background: #283040;
+    color: #C4CFDD;
+    opacity: 0.54;
+}
+.calc-range .noUi-connect {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+}
+.range-info__data {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.range-info .form-control__field {
+    background: #283040;
+}
+.checkbox {
+    color: #C4CFDD;
+}
+.form-control__note {
+    color: #C4CFDD;
+}
+
+
+
+

@@ -43,6 +43,15 @@ body {
 .btn-primary {
     background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
 }
+.social-list__drop {
+    background: #283040;
+    color: #C4CFDD;
+    box-shadow: none;
+}
+.social-list__drop a {
+    color: #C4CFDD;
+    border-bottom: 1px solid #3E4A62;
+}
 
 /* SECTION-MAIN END */
 
