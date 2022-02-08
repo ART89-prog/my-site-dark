@@ -7,6 +7,12 @@ html {
     background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
 }
 
+.lk-user__name {
+    color: #C4CFDD;
+}
+.lk-user p {
+    color: #C4CFDD;
+}
 .header .lk-user__name {
     color: #C4CFDD;
 }
@@ -317,6 +323,9 @@ html {
 .reception_list li a {
     color: #706CFD;
 }
+.reception_title {
+    color: #C4CFDD;
+}
 
 
 
@@ -457,5 +466,13 @@ html {
 .income_modal-text {
     color: #C4CFDD;
     opacity: 0.6;
+}
+
+
+
+@media (max-width: 767px) {
+    .dialog .social-list__title {
+        display: none;
+    }    
 }
 

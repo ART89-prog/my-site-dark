@@ -52,6 +52,62 @@ body {
     color: #C4CFDD;
     border-bottom: 1px solid #3E4A62;
 }
+.main-content__title {
+    color: #C4CFDD;
+}
+.come-back .icon {
+    margin-top: 5px;
+}
+.come-back {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.service-link.active {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+}
+.service-link {
+    background: #283040;
+    color: #C4CFDD;
+}
+.main-content__head {
+    border-bottom: 1px solid #3E4A62;
+}
+.form-control__label {
+    color: #C4CFDD;
+}
+.form-control__field {
+    background: #283040;
+    color: #C4CFDD;
+    border: 1px solid #283040;
+}
+.range-info__data {
+    background: linear-gradient(135deg, #3087FB 0%, #B34EFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.checkbox {
+    color: #C4CFDD;
+}
+.checkbox input:checked + .checkbox-icon {
+    background-image: url(../img/svg/check.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.checkbox-icon {
+    background: #283040;
+    border: none;
+    transition: 0s;
+}
+.form-control__note {
+    color: #C4CFDD;
+}
+.lk-user__name {
+    color: #C4CFDD;
+}
+.lk-user p {
+    color: #C4CFDD;
+}
 
 /* SECTION-MAIN END */
 
